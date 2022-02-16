@@ -1,0 +1,17 @@
+
+
+Fornut:
+-HIGH -USEALLAVAILABLECORES -NOSPLASH -PREFERREDPROCESSOR 8 -NOTEXTURESTREAMING -NORHITHREAD
+
+Steam Game
+-USEALLAVAILABLECORES -dx12 -high -maxThreads=12
+
+ETS 2
+-USEALLAVAILABLECORES -dx12 -high -maxThreads=12 -dx11 -nointro 
+
+DOOM ETERNAL
++com_skipIntroVideo 1 +com_skipKeyPressOnLoadScreens 1 -high -USEALLAVAILABLECORES
+
+CS GO
+
+-novid  -tickrate 128 +fps_max 0 -nojoy -high +mat_disable_fancy_blending 1 + cl_forcepreload 1 -disable_d3d9ex +net_graph "1" -USEALLAVAILABLECORES  -high -maxThreads=12
